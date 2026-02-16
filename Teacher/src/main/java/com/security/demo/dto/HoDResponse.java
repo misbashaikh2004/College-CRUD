@@ -79,6 +79,8 @@ public class HoDResponse {
 		return "HoDResponse [id=" + id + ", name=" + name + ", exp=" + exp + ", email=" + email + ", dept=" + dept
 				+ ", mob=" + mob + "]";
 	}
+	
+//	public static HoD toEntity(HoDRequest h) {
 
 	public static HoDResponse toDTO(HoD h) {
 		HoDResponse temp = new HoDResponse();

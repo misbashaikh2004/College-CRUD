@@ -19,14 +19,8 @@ import com.security.demo.repository.HoDRepository;
 @Service
 public class HoDServiceImpl implements HoDService {
 
-	private final StudentRepository studentRepository;
-
 	@Autowired
 	private HoDRepository hodrepository;
-
-	HoDServiceImpl(StudentRepository studentRepository) {
-		this.studentRepository = studentRepository;
-	}
 
 	@Override
 	public void add(HoDRequest hod) {

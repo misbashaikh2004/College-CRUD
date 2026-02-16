@@ -1,6 +1,5 @@
 package com.security.demo.service;
 
-import java.net.ResponseCache;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +11,6 @@ import com.security.demo.dto.TeacherResponse;
 import com.security.demo.exception.InvalidEmail;
 import com.security.demo.exception.InvalidId;
 import com.security.demo.exception.InvalidMobileNumber;
-import com.security.demo.model.Student;
 import com.security.demo.model.Teacher;
 import com.security.demo.repository.TeacherRepository;
 
