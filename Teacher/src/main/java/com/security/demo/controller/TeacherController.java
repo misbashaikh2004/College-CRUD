@@ -39,7 +39,7 @@ public class TeacherController {
 		return teacherservice.display();
 	}
 
-	@PostMapping("add all")
+	@PostMapping("add-all")
 	public void addAll(@RequestBody List<TeacherRequest> list) {
 		teacherservice.addAll(list);
 	}

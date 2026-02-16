@@ -44,7 +44,7 @@ public class StudentController {
 		return studentservice.display();
 	}
 
-	@PostMapping("add all")
+	@PostMapping("add-all")
 	public void addAll(@RequestBody List<StudentRequest> list) {
 		studentservice.addAll(list);
 	}
