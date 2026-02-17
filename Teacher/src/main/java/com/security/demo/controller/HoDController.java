@@ -51,6 +51,7 @@ public class HoDController {
 		return ResponseEntity.ok(temp);
 	}
 	
+	
 	@PostMapping("add-all")
 	public void addAll(@RequestBody List<HoDRequest> list) {
 		hodservice.addAll(list);

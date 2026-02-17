@@ -117,5 +117,4 @@ public class HoD {
 				+ ", dept=" + dept + ", password=" + password + ", role=" + role + ", mob=" + mob + "]";
 	}
 
-	
 }
