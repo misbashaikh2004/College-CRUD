@@ -19,6 +19,7 @@ import com.security.demo.dto.StudentRequest;
 import com.security.demo.model.HoD;
 import com.security.demo.service.HoDService;
 
+//Aggregation and Composition
 @RestController
 @RequestMapping("/hod")
 public class HoDController {
