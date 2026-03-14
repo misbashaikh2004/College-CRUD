@@ -122,6 +122,7 @@ public class StudentRequest {
 				+ username + ", password=" + password + ", email=" + email + ", marks=" + marks + ", mob=" + mob
 				+ ", role=" + role + "]";
 	}
+	
 
 	public static Student toEntity(StudentRequest e) {
 		Student temp = new Student();

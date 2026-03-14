@@ -14,7 +14,7 @@ public class HoDResponse {
 	public HoDResponse() {
 		super();
 		// TODO Auto-generated constructor stub
-	}
+	}	
 
 	public HoDResponse(Integer id, String name, Integer exp, String email, String dept, String mob) {
 		super();
